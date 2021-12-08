@@ -13,7 +13,7 @@ void* sum_runner();
 int get_lenght() const;
 int get_width() const;
 void Init();
-static void* sum_runner_helper(void*);
+static void* sum_runner_helper(void*); // runs sum_runner in thread 
 private:
 std::vector<std::vector<int>> matrix;
 int lenght;
